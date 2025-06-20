@@ -1,0 +1,26 @@
+.candidate {
+  width: 15rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2rem 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 1rem;
+  .avatar {
+    width: 12rem;
+    height: 12rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5rem;
+    margin: auto;
+  }
+  .name {
+    font-weight: 600;
+    text-align: center;
+  }
+  .totalvotes {
+  }
+  .voteBtn {
+  }
+}
